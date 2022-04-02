@@ -12,9 +12,7 @@ API_ENDPOINT = 'https://discord.com/api/v8'
 CLIENT_ID = '951169249269911582'
 CLIENT_SECRET = 'xjZyYB1KeUlUaN1bxa5D9JYTUbhqOFXH'
 
-
 app = Flask(__name__)
-
 
 @app.route("/")
 def home():
@@ -28,4 +26,4 @@ def callback():
 
 
 if __name__ == "__main__":
-  app.run(debug=True)
+  app.run()
